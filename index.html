@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tổ 3 - 12a14 </title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 650px;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1a73e8;
+            margin-bottom: 8px;
+            font-size: 26px;
+        }
+
+        p.subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+
+        .member-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 12px;
+        }
+
+        .member-item {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            padding: 14px 18px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            transition: all 0.2s ease;
+        }
+
+        .member-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(26, 115, 232, 0.15);
+            border-color: #1a73e8;
+            background-color: #eef5ff;
+        }
+
+        .badge {
+            background-color: #1a73e8;
+            color: white;
+            font-weight: bold;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            margin-right: 14px;
+            flex-shrink: 0;
+        }
+
+        .name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>DANH SÁCH THÀNH VIÊN NHÓM</h1>
+        <p class="subtitle">Thành viên tham gia dự án</p>
+
+        <ul class="member-list">
+            <li class="member-item">
+                <span class="badge">1</span>
+                <span class="name">Nguyễn Thị Anh Đào</span>
+            </li>
+            <li class="member-item">
+                <span class="badge">2</span>
+                <span class="name">H Sơ</span>
+            </li>
+            <li class="member-item">
+                <span class="badge">3</span>
+                <span class="name">Phan Nguyễn Bảo Linh</span>
+            </li>
+            <li class="member-item">
+                <span class="badge">4</span>
+                <span class="name">Phạm Nguyễn Nhật Phong</span>
+            </li>
+            <li class="member-item">
+                <span class="badge">5</span>
+                <span class="name">Phạm Đình Vũ</span>
+            </li>
+            <li class="member-item">
+                <span class="badge">6</span>
+                <span class="name">Mai Gia Hy</span>
+            </li>
+            <li class="member-item">
+                <span class="badge">7</span>
+                <span class="name">Trần Văn Mạnh</span>
+            </li>
+            <li class="member-item">
+                <span class="badge">8</span>
+                <span class="name">Tăng Thị Kim Chi</span>
+            </li>
+            <li class="member-item">
+                <span class="badge">9</span>
+                <span class="name">Dương Vũ Thùy Trâm</span>
+            </li>
+            <li class="member-item">
+                <span class="badge">10</span>
+                <span class="name">Nguyễn Ngọc Tường Vi</span>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
